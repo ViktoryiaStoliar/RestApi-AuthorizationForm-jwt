@@ -1,0 +1,45 @@
+.wrapper {
+    h1 {
+        color: #12141A;
+        font: 500 23px Inter;
+        line-height: normal;
+    }
+
+    p {
+        color: #606778;
+        font: 500 14px Inter;
+        line-height: 20px;
+    }
+
+}
+
+.wrapperInp {
+    display: flex;
+    gap: 10px;
+}
+
+.regInp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid #CAD0DB;
+    background: #FFF;
+    width: 100%;
+}
+
+
+.btn {
+    color: var(--other-white, #FFF);
+    font: 400 16px Open Sans;
+    width: 60px;
+    line-height: 34px;
+    padding: 1px 18px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--blue-6, #228BE6);
+    margin-left: auto;
+}

@@ -11,7 +11,7 @@ async function getData() {
 async function createData(name, surname, email, password) {
     const user = await getByEmailDB(email);
 
-    if (user.length) throw new console.error("user already exist");
+    if (user.length) throw new Error("user already exist");
 
     const hashPasw = await bcrypt.hash(password, salt);
     const data = await createDataDB(name, surname, email, hashPasw);

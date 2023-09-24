@@ -1,5 +1,4 @@
 const route = require('express').Router()
-const { request } = require('../app');
 const { getData, createData, deleteUser, getUserById, authUser, updateDateUser } = require('../service/service');
 
 route.get('/', async (req, res) => {
